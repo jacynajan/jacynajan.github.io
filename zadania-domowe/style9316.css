@@ -1,0 +1,14 @@
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+.square-2 {
+    opacity: 0.8;
+}
+.square-3 {
+    opacity: 0.6;
+}
+.square-4 {
+    opacity: 0.4;
+}
