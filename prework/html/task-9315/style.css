@@ -20,3 +20,19 @@
     width: 100px;
     height: 100px;
 }
+
+.first-square {
+    background-color: yellowgreen;
+}
+
+.second-square {
+    background-color: aquamarine;
+}
+
+.third-square {
+    background-color: bisque;
+}
+
+.fourth-square {
+    background-color: cyan;
+}
