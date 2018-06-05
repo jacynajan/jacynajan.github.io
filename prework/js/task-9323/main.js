@@ -7,4 +7,3 @@ function sum(liczbaPierwsza, liczbaDruga) {
 }
 
 sum(liczbaPierwsza, liczbaDruga);
-console.log('test');
