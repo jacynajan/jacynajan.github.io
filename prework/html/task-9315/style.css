@@ -10,3 +10,13 @@
 .li-contact {
     color: powderblue;
 }
+
+.about-us-sec {
+    background-color: azure;
+}
+
+.second-section-square {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
