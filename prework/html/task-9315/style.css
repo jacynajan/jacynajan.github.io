@@ -53,3 +53,10 @@
 .third-square-2 {
     border: 1px solid green;
 }
+
+.button {
+    width: 200px;
+    height: 40px;
+    background-color: aqua;
+    color: fuchsia;
+}
