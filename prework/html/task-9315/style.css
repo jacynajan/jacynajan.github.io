@@ -36,3 +36,20 @@
 .fourth-square {
     background-color: cyan;
 }
+
+.third-section-square {
+    width: 150px;
+    height: 150px;
+}
+
+.first-square-2 {
+    border: 1px solid blue;
+}
+
+.second-square-2 {
+    border: 1px solid red;
+}
+
+.third-square-2 {
+    border: 1px solid green;
+}
