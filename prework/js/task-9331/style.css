@@ -1,0 +1,17 @@
+body {
+    background-color: azure;
+}
+h1 {
+    color: blue;
+}
+
+#dodaj {
+    background-color: aquamarine;
+}
+#usun {
+    background-color: deepskyblue;
+}
+
+#tekst {
+    color: red;
+}
