@@ -1,0 +1,13 @@
+div.klient[detaliczny] {
+    background-color: yellow;
+}
+div.klient[detaliczny='mozetak'] {
+    background-color: red;
+}
+div.klient[detaliczny*='tak'] {
+    border: 1px solid green;
+}
+
+div.klient[suma^='36'] {
+    background-color: aquamarine;
+}
