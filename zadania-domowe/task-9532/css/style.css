@@ -1,0 +1,64 @@
+body {
+    font-family: 'Vernada', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    background-image: url(/obrazy/man-1.jpg);
+    height: 100vh;
+    background-size: cover;
+
+}
+
+p {
+    text-transform: uppercase;
+    text-align: left;
+    color: white;
+    padding-left: 50px;
+    font-weight: bold;
+
+}
+
+div {
+    position: absolute;
+    top: 50%;
+}
+
+.first-paragraf {
+    font-size: 20px;
+}
+
+.second-paragraf {
+    font-size: 30px;
+}
+
+@media (min-width:992px) and (max-width:1170px) {
+    div {
+        top: 10%;
+        right: 10%;
+    }
+    header {
+        background-image: url(/obrazy/man-2.jpg);
+        background-size: cover;
+        height: 70vh;
+    }
+}
+
+@media (max-width:991px) {
+    header {
+        background-image: url(/obrazy/man-1.jpg);
+        height: 50vh;
+        background-size: cover;
+    }
+    p {
+        text-align: center;
+        color: black;
+        padding: 0;
+    }
+    div {
+        top: 100%;
+        left: 25%;
+        
+    }
+}
