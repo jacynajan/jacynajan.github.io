@@ -1,0 +1,45 @@
+body {
+    background-color: cadetblue;
+    color: azure;
+}
+
+h1 {
+    color: azure;
+    text-decoration: underline;
+}
+
+p {
+    color: paleturquoise;
+    font-size: 20px;
+}
+
+.labels-border {
+    border: 4px solid lightgray;
+    padding: 10px;
+    width: 350px;
+}
+
+.quantify-border {
+    border: 4px solid lightgray;
+    width: 350px;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    background-color: azure;
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    color: cadetblue;
+    font-size: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: paleturquoise;
+}
+
+input, option {
+    padding: 3px;
+    background-color: oldlace;
+    color: darkcyan;
+}
