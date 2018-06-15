@@ -24,7 +24,7 @@ body {
     opacity: 0;
     visibility: hidden;
     animation-name: border-animation;
-    animation-duration: 5s;
+    animation-duration: 8s;
     animation-timing-function: ease;
 }
 
@@ -59,7 +59,7 @@ body {
     opacity: 0.1;
     visibility: hidden;
     transition-property: opacity;
-    transition-duration: 3s;
+    transition-duration: 8s;
 }
 
 P {
