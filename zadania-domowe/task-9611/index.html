@@ -10,28 +10,28 @@
 <body>
     <h1>A Simple Form</h1>
     <h2>Form Fundamentals</h2>
-    <form>
+    <form autocomplete="on">
         <p>Customer Info</p>
         <div class="labels-border">
-        <label>Name:</label>
-        <input type="text" placeholder="Enter your name" required autocomplete="on" autofocus><br>
-        <label>Telephone:</label>
-        <input type="tel" placeholder="Pattern: 1-234-567-8910" autocomplete="on" required pattern='[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}' required><br>
-        <label>Email address:</label>
-        <input type="email" placeholder="Enter your email address" multiple autocomplete="on" required>
+            <label for="name">Name:</label>
+            <input type="text" id='name' placeholder="Enter your name" required autofocus><br>
+            <label for="phone">Telephone:</label>
+            <input type="tel" id='phone' placeholder="Pattern: 1-234-567-8910" required pattern='[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}'><br>
+            <label for="mail">Email address:</label>
+            <input type="email" id='mail' placeholder="Enter your email address" multiple required>
         </div>
         <p>Books</p>
         <div class="quantify-border">
-        <label><input list='list'></label>
-        <datalist id="list">
-        <option value="Action">Action</option>
-        <option value="Drama">Drama</option>
-        <option value="Horror">Horror</option>
-        <option value="War">War</option>
-        <option value="Westerns">Westerns</option>
-        </datalist>
-
-        <label>Quantity (Maximum 5):</label><input type="number" min='1' max="5"><br>
+            <label><input list='list'></label>
+            <datalist id='list'>
+               <option value="Action">Action</option>
+               <option value="Drama">Drama</option>
+               <option value="Horror">Horror</option>
+               <option value="War">War</option>
+               <option value="Westerns">Westerns</option>
+            </datalist>
+            <label for="number">Quantity (Maximum 5):</label>
+            <input type="number" id='number' min='1' max="5"><br>
         </div>
         <label><input type="submit" value="Submit"></label>
     </form>
