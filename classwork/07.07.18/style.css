@@ -1,0 +1,8 @@
+.item {
+    background-color: aqua;
+    height: 300px;
+}
+
+.item:nth-child(2n) {
+    background-color: #ccc;
+}
