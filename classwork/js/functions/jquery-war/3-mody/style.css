@@ -1,0 +1,31 @@
+.color-div {
+	padding: 20px;
+	background-color: red;
+}
+
+.img {
+	border: 1px solid blue;
+	outline: 5px dotted aqua;
+	outline-offset: 5px;
+	width: 500px;
+	height: 300px;
+}
+
+.img-transform {
+	transform: rotate(30deg);
+	width: 400px;
+	height: 200px;
+}
+
+#second {
+	transition: all 2s;
+	font-size: 4rem;
+    color: green;
+    text-decoration: underline;
+}
+
+#second.ladny-napoj {
+	font-size: 1.6rem;
+	color: red;
+	opacity: .4;
+}
